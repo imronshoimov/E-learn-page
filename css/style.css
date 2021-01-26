@@ -501,7 +501,12 @@ body {
 	width: 363px;
 	height: 480px;
 	background-color: white;
-	border-radius: 10px;
+	border-radius: 15px;
+	transition: box-shadow 0.3s;
+}
+
+.blog__item:hover {
+	box-shadow: 0 0 54px rgba(0,0,0,0.2);
 }
 
 .date {
