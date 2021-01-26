@@ -38,7 +38,7 @@ body {
 	FIRST SECTION
 */
 
-.header-section {
+.header-section .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
