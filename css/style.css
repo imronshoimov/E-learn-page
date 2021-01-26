@@ -382,7 +382,6 @@ body {
 	background-color: white;
 	border-radius: 50%;
 	border: none;
-	outline: none;
 	width: 100px;
 	height: 100px;
 }
@@ -593,3 +592,47 @@ body {
 .subscribe-button:hover {
 	background-color: var(--background-hover);
 }
+
+/*
+	NINETH SECTION
+*/
+
+.footer {
+	background-color: var(--secondary-bgcolor);
+}
+
+.footer .container {
+	padding: 100px 0;
+}
+
+.footer__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__item_1 {
+	width: 250px;
+}
+
+.footer__text {
+	padding: 20px 0;
+}
+
+.footer__item > ul {
+	padding: 20px 0;
+}
+
+.footer__item > ul li {
+	margin-bottom: 10px;
+	
+}
+
+.footer__item > ul a {
+	color: rgba(0,0,0,0.7);
+}
+
+.footer__item > ul a:hover {
+	color: black;
+}
+ 
+ 	
