@@ -242,6 +242,11 @@ body {
 	box-shadow: 0 20px 56px -20px rgba(84, 104, 255, 0.2);
 	margin-bottom: 30px;
 	border-radius: 10px;
+	transition: box-shadow .3s;
+}
+
+.courses__item:hover {
+	box-shadow: 0 0 54px rgba(0, 0, 0, 0.2);
 }
 
 .price {
