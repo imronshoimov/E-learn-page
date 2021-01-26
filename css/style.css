@@ -241,7 +241,7 @@ body {
 .courses__item {
 	box-shadow: 0 20px 56px -20px rgba(84, 104, 255, 0.2);
 	margin-bottom: 30px;
-	border-radius: 10px;
+	border-radius: 15px;
 	transition: box-shadow .3s;
 }
 
